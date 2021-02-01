@@ -1,0 +1,110 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{\hfill Andrea Tupini} % Your name
+
+\address{\hfill(+506)~8736~58~10 \\ 
+\href{mailto:tupini07@gmail.com}{tupini07@gmail.com} \\ 
+\href{https://github.com/tupini07}{GitHub Profile}} % Your phone number and email
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Universita degli Studi di Trento (\href{https://github.com/tupini07/Master-Thesis/tree/master}{Thesis})} \hfill {\em September 2017 - 2019} 
+\\ Master's degree \hfill 
+\\ Computer Science with emphasis in Data Science \\
+
+
+{\bf Universidad Latina de Costa Rica} \hfill {\em January 2012 - 2015} 
+\\ Bachelor’s Degree \hfill 
+\\ Computer Software Engineering 
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} l }
+Computer Languages &  Python, Rust, Go, JavaScript/Typescript, Bash, C\#, Java, HTML, CSS \\
+Libraries & Tensorflow, PyTorch, Scikit-learn, Keras, Pandas, Matplotlib, Seaborn \\
+Platforms & AWS, Azure, GCP, DigitalOcean \\
+OSs & Linux, Windows \\
+Others & docker, git, conda, webpack, latex
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+
+\begin{rSubsection}{Cecropia Solutions}{December 2019 - Present}
+{DevOps}{}
+\item[] My main responsibility was to optimize and automate deployment and testing flows for many applications developed by the company, as well as package development environments for developers, create resource architectures (on AWS), estimate costs of resources, and create/provision the required resources in cloud providers like AWS, Azure, and DigitalOcean. For CI/CD platforms mainly I used \textit{bitbucket pipelines} and \textit{github actions}. 
+
+During this time I also worked in a tech lead position for the following projects: a job board application built with .NET core web framework; an application for automatic fertigation system built on AWS lambdas using the serverless framework and typescript; an application to track user actions when viewing files built also on AWS lambda but using AWS SAM as framework and C\#. 
+\end{rSubsection}
+
+\begin{rSubsection}{Wikimedia Foundation}{January 2019 - October 2019}
+{Research}{}
+\item[] While doing my master's degree I worked on a Wikimedia Foundation project called \href{https://meta.wikimedia.org/wiki/Grants:Project/Hjfocs/soweego}{soweego}, whose goal is to add references from entities in Wikidata to the same entity in an \textit{external catalog} (eg, \textit{imdb}).
+
+My main responsibility was that of integrating machine learning techniques into the existent pipeline. I added multiple machine learning classifiers, tested them, and ended up implementing an \textit{ensemble} of classifiers among all the classifiers to achieve an optimal score.
+\end{rSubsection}
+
+\begin{rSubsection}{Cecropia Solutions}{February 2016 - December 2019}
+{Software Developer}{}
+\item[] Kept constant communication with an international marketing department team from a client company. During this time I developed various \textit{media} for them, including: responsive emails, landing pages for promotions/webinars, and pages for products. 
+
+I also worked on developing and automating marketing campaigns related with the sending of emails to lists of leads who might be good candidates for the campaign, as well as generating reports for these campaigns.
+
+We used \textit{Marketo} to manage everything that is email related: creation, campaigns, and reports. \textit{Salesforce} was used to manage leads, although I only interacted with it indirectly though Marketo. \textit{Silverpop} (from IBM) was used as an email sending platform for non-marketing emails (onboarding emails mainly).
+
+I also developed multiple applications for internal use with the purpose of automating the workflow, these were done mainly with Python, as well as an application which was widely used to manage email components and create emails.
+\end{rSubsection}
+
+
+\begin{rSubsection}{Guias y Scouts de Costa Rica}{Jan 2015 – May 2015}
+{Community work - Software Developer}{}
+\item[] Development of a web application for internal use of the \textit{scouts of Costa Rica}, to manage projects and participants in said projects. The application was built using Node.js/Express.js.
+\end{rSubsection}
+
+
+\begin{rSubsection}{Arkkosoft}{May 2014 – Jan 2015}{Intern Software Developer}{}
+\item[] Developed an application to control and make reports of the actions made by agents of a call-center. Also developed another application to manage the data for scholarship applicants. Both this applications were made using Java/JSP.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Languages}
+\itab{\textbf{Language}}  \tab{\textbf{Spoken}} \tab{\textbf{Written}}
+\\ \itab{Italian} \tab{100\%}  \tab{100\%}
+\\ \itab{Spanish} \tab{100\%}  \tab{100\%}
+\\ \itab{English} \tab{95\%}  \tab{90\%}
+\end{rSection}
+
+\end{document}
