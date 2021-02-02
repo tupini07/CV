@@ -46,7 +46,7 @@
 Computer Languages & Python, Rust, Go, C\#, Java, JavaScript/Typescript, Crystal, Bash, \\
                    & HTML, CSS, Sass \\
 AWS Services       & CloudFormation, Lambda, S3, CloudWatch, DynamoDB, CloudFront, \\
-                   & API Gateway, Cognito, EC2, AWS Organizations, IAM, IOT Core \\
+                   & API Gateway, Cognito, EC2, AWS Organizations, IAM, IOT Core, SES \\
 DevOps             & Bitbucket Pipelines, GitHub Actions, Travis CI, Ansible, Watchtower \\
 Web                & Angular, React, Webpack, async/await, observables, Gatsby, \\
                    & Bootstrap \\
@@ -56,8 +56,9 @@ Data Science       & TensorFlow, PyTorch, Scikit-learn, Keras, Pandas, Matplotli
 Platforms          & AWS, Azure, GCP, DigitalOcean, Cloudflare, GitHub, Bitbucket, Jira, \\
                    & Heroku \\
 OSs                & Linux (\textit{Arch} and \textit{Debian}), Windows \\
-Others             & Docker, Git, REST, Scrum, OOP, Make, Nginx, Apache, Latex, VestaCP \\ 
-Databases          & MySQL, SQL Server, SQLite, MariaDB, DynamoDB
+Databases          & MySQL, SQL Server, SQLite, MariaDB, DynamoDB \\
+Others             & Docker, Git, REST, Scrum, OOP, Make, Nginx, Apache, Latex, VestaCP, \\
+                   & NodeRed \\ 
 \end{tabular}
 
 \end{rSection}
@@ -70,10 +71,16 @@ Databases          & MySQL, SQL Server, SQLite, MariaDB, DynamoDB
 
 
 \begin{rSubsection}{Cecropia Solutions}{December 2019 - Present}
-{DevOps}{}
+{DevOps / Tech Lead}{}
 \item[] My main responsibility was to optimize and automate deployment and testing flows for many applications developed by the company, as well as package development environments for developers, create resource architectures (on AWS), estimate costs of resources, and create/provision the required resources in cloud providers like AWS, Azure, and DigitalOcean. For CI/CD platforms mainly I used \textit{bitbucket pipelines} and \textit{github actions}. 
 
-During this time I also worked in a tech lead position for the following projects: a job board application built with .NET core web framework; an application for automatic fertigation system built on AWS lambdas using the serverless framework and typescript; an application to track user actions when viewing files built also on AWS lambda but using AWS SAM as framework and C\#. 
+During this time I also worked as tech lead for the following projects: 
+
+\begin{itemize}
+    \item A job application board built with .NET Core web framework in the BE and Angular in the FE. The application integrates with Salesforce, where clients can manage job offers that appear in the board. 
+    \item An application for an automatic fertigation system built on AWS Lambda using the serverless framework (with Typescript), and Angular for the FE. In this project we leveraged the AWS IOT Core service to collect data from the irrigation devices. NodeRed was used for the preprocessing and handling of the actual IOT data.
+    \item An application that tracks user actions when viewing files built on AWS lambda, using AWS SAM as framework and C\#, and Angular for the FE. Clients of the application can see different metrics of the files they upload and optionally report metrics to Salesforce. 
+\end{itemize}
 \end{rSubsection}
 
 \begin{rSubsection}{Wikimedia Foundation}{January 2019 - October 2019}
